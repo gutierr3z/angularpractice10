@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
-import {MatTableModule} from '@angular/material/table';
 
 @Component({
   selector: 'app-main',

@@ -6,16 +6,21 @@ import { DataService } from './services/data.service';
 
 import { AppComponent } from './app.component';
 import { MainComponent } from './components/main/main.component';
+import { UsertableComponent } from './components/usertable/usertable.component';
+
+import { MatTableModule } from '@angular/material/';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    MainComponent,
+    UsertableComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    MatTableModule
   ],
   providers: [
     DataService
