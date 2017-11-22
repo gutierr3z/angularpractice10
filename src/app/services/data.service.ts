@@ -20,21 +20,3 @@ export class DataService {
     return this.colors;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
