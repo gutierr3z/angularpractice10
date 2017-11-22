@@ -3,6 +3,13 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class DataService {
 
-  constructor() { }
+  users:string[];
 
+  constructor() { 
+    this.users = [ 'un', 'deux' ];
+  }
+
+  getUsers() {
+    return this.users;
+  }
 }
